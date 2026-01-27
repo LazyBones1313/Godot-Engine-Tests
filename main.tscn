@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://dngyewxhjlfol"]
+
+[ext_resource type="Texture2D" uid="uid://cu3n28xvjmnxy" path="res://Shrek.png" id="3_lquwl"]
+
+[sub_resource type="SystemFont" id="SystemFont_7dm0k"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ig7tw"]
+font = SubResource("SystemFont_7dm0k")
+font_size = 39
+
+[node name="Main" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 115.0
+offset_top = 130.0
+offset_right = 1007.0
+offset_bottom = 350.0
+text = "Hello World! Welcome to my test Godot Project. Here is a picture of shrek. :)"
+label_settings = SubResource("LabelSettings_ig7tw")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Shrek" type="Sprite2D" parent="."]
+position = Vector2(568, 519)
+texture = ExtResource("3_lquwl")
