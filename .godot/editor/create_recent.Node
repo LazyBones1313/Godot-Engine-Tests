@@ -1,0 +1,10 @@
+Sprite2D
+Control
+CollisionShape2D
+Area2D
+AnimatedSprite2D
+Camera2D
+AudioStreamPlayer2D
+AudioListener2D
+CanvasLayer
+CharacterBody2D
